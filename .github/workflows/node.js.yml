@@ -28,4 +28,4 @@ jobs:
     - run: npm run build --if-present
    # - run: npm test
     - run: ls
-    - run: cp -R build/* /var/www/html
+    - run: cp -R dist/* /var/www/html
